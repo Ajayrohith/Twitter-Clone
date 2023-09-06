@@ -1,0 +1,21 @@
+.feed{
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-background);
+  
+    overflow-y: scroll;
+    
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 15px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid var(--twitter-background);
+}
+
+.header>h2{
+    font-weight: 800;
+    font-size: 20px;
+}
